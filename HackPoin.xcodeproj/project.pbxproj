@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0A61AE208EE2F5000E514D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A61AD208EE2F5000E514D /* ForgotPasswordViewController.swift */; };
+		2E0A61B1208EE604000E514D /* ForgotPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E0A61AF208EE603000E514D /* ForgotPassword.xib */; };
 		2E0BC0C3208DBA3D00745CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BC0C2208DBA3D00745CDA /* AppDelegate.swift */; };
-		2E0BC0C5208DBA3D00745CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BC0C4208DBA3D00745CDA /* ViewController.swift */; };
 		2E0BC0C8208DBA3D00745CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0BC0C6208DBA3D00745CDA /* Main.storyboard */; };
 		2E0BC0CA208DBA3E00745CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0BC0C9208DBA3E00745CDA /* Assets.xcassets */; };
 		2E0BC0CD208DBA3E00745CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0BC0CB208DBA3E00745CDA /* LaunchScreen.storyboard */; };
+		2E0BC0D5208DC0A400745CDA /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BC0D4208DC0A400745CDA /* LoginPageViewController.swift */; };
+		2E0BC0DA208DC26D00745CDA /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BC0D9208DC26D00745CDA /* RegisterPageViewController.swift */; };
+		2E3CC148208F1F99006B985E /* DIMIS___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC142208F1C15006B985E /* DIMIS___.TTF */; };
+		2E3CC149208F1F99006B985E /* GOTHIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC143208F1C15006B985E /* GOTHIC.TTF */; };
+		2E3CC14A208F1F99006B985E /* GOTHICB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC147208F1C16006B985E /* GOTHICB.TTF */; };
+		2E3CC14B208F1F99006B985E /* GOTHICBI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC144208F1C15006B985E /* GOTHICBI.TTF */; };
+		2E3CC14C208F1F99006B985E /* GOTHICI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC145208F1C15006B985E /* GOTHICI.TTF */; };
+		2E3CC14D208F1F99006B985E /* Prometo XBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC146208F1C15006B985E /* Prometo XBold.otf */; };
+		FDC1AD48ED2C69DAF17A44F9 /* Pods_HackPoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B798A9693567329C57F5C19C /* Pods_HackPoin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E0A61AD208EE2F5000E514D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		2E0A61B0208EE603000E514D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ForgotPassword.xib; sourceTree = "<group>"; };
 		2E0BC0BF208DBA3D00745CDA /* HackPoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackPoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0BC0C2208DBA3D00745CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E0BC0C4208DBA3D00745CDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E0BC0C7208DBA3D00745CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E0BC0C9208DBA3E00745CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0BC0CC208DBA3E00745CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0BC0CE208DBA3E00745CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0BC0D4208DC0A400745CDA /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		2E0BC0D9208DC26D00745CDA /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		2E3CC142208F1C15006B985E /* DIMIS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIMIS___.TTF"; sourceTree = "<group>"; };
+		2E3CC143208F1C15006B985E /* GOTHIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHIC.TTF; sourceTree = "<group>"; };
+		2E3CC144208F1C15006B985E /* GOTHICBI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICBI.TTF; sourceTree = "<group>"; };
+		2E3CC145208F1C15006B985E /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
+		2E3CC146208F1C15006B985E /* Prometo XBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo XBold.otf"; sourceTree = "<group>"; };
+		2E3CC147208F1C16006B985E /* GOTHICB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB.TTF; sourceTree = "<group>"; };
+		5D0624BB1AD0705848F533F1 /* Pods-HackPoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin.debug.xcconfig"; sourceTree = "<group>"; };
+		B631C40749256BFD852D6925 /* Pods-HackPoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin.release.xcconfig"; sourceTree = "<group>"; };
+		B798A9693567329C57F5C19C /* Pods_HackPoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackPoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC1AD48ED2C69DAF17A44F9 /* Pods_HackPoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CE69ED4185D6323259EB652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B798A9693567329C57F5C19C /* Pods_HackPoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E0BC0B6208DBA3D00745CDA = {
 			isa = PBXGroup;
 			children = (
 				2E0BC0C1208DBA3D00745CDA /* HackPoin */,
 				2E0BC0C0208DBA3D00745CDA /* Products */,
+				7401FFBB1DF455E6D4827B93 /* Pods */,
+				2CE69ED4185D6323259EB652 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,48 @@
 		2E0BC0C1208DBA3D00745CDA /* HackPoin */ = {
 			isa = PBXGroup;
 			children = (
+				2E3CC141208F1BE5006B985E /* Fonts */,
+				2E0BC0D6208DC0AB00745CDA /* Login */,
 				2E0BC0C2208DBA3D00745CDA /* AppDelegate.swift */,
-				2E0BC0C4208DBA3D00745CDA /* ViewController.swift */,
 				2E0BC0C6208DBA3D00745CDA /* Main.storyboard */,
-				2E0BC0C9208DBA3E00745CDA /* Assets.xcassets */,
+				2E0A61AF208EE603000E514D /* ForgotPassword.xib */,
 				2E0BC0CB208DBA3E00745CDA /* LaunchScreen.storyboard */,
+				2E0BC0C9208DBA3E00745CDA /* Assets.xcassets */,
 				2E0BC0CE208DBA3E00745CDA /* Info.plist */,
 			);
 			path = HackPoin;
+			sourceTree = "<group>";
+		};
+		2E0BC0D6208DC0AB00745CDA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2E0BC0D4208DC0A400745CDA /* LoginPageViewController.swift */,
+				2E0BC0D9208DC26D00745CDA /* RegisterPageViewController.swift */,
+				2E0A61AD208EE2F5000E514D /* ForgotPasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2E3CC141208F1BE5006B985E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2E3CC142208F1C15006B985E /* DIMIS___.TTF */,
+				2E3CC143208F1C15006B985E /* GOTHIC.TTF */,
+				2E3CC147208F1C16006B985E /* GOTHICB.TTF */,
+				2E3CC144208F1C15006B985E /* GOTHICBI.TTF */,
+				2E3CC145208F1C15006B985E /* GOTHICI.TTF */,
+				2E3CC146208F1C15006B985E /* Prometo XBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7401FFBB1DF455E6D4827B93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D0624BB1AD0705848F533F1 /* Pods-HackPoin.debug.xcconfig */,
+				B631C40749256BFD852D6925 /* Pods-HackPoin.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E0BC0D1208DBA3E00745CDA /* Build configuration list for PBXNativeTarget "HackPoin" */;
 			buildPhases = (
+				0E1C6B34DBBB6354FC9C004D /* [CP] Check Pods Manifest.lock */,
 				2E0BC0BB208DBA3D00745CDA /* Sources */,
 				2E0BC0BC208DBA3D00745CDA /* Frameworks */,
 				2E0BC0BD208DBA3D00745CDA /* Resources */,
+				2B44A896101472CFF5CC2D14 /* [CP] Embed Pods Frameworks */,
+				507F0F1DE84927176EE19309 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +193,99 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3CC149208F1F99006B985E /* GOTHIC.TTF in Resources */,
+				2E3CC14B208F1F99006B985E /* GOTHICBI.TTF in Resources */,
 				2E0BC0CD208DBA3E00745CDA /* LaunchScreen.storyboard in Resources */,
+				2E3CC148208F1F99006B985E /* DIMIS___.TTF in Resources */,
 				2E0BC0CA208DBA3E00745CDA /* Assets.xcassets in Resources */,
+				2E3CC14A208F1F99006B985E /* GOTHICB.TTF in Resources */,
 				2E0BC0C8208DBA3D00745CDA /* Main.storyboard in Resources */,
+				2E0A61B1208EE604000E514D /* ForgotPassword.xib in Resources */,
+				2E3CC14C208F1F99006B985E /* GOTHICI.TTF in Resources */,
+				2E3CC14D208F1F99006B985E /* Prometo XBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E1C6B34DBBB6354FC9C004D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackPoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B44A896101472CFF5CC2D14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONParserSwift/JSONParserSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONParserSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		507F0F1DE84927176EE19309 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E0BC0BB208DBA3D00745CDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0BC0C5208DBA3D00745CDA /* ViewController.swift in Sources */,
+				2E0A61AE208EE2F5000E514D /* ForgotPasswordViewController.swift in Sources */,
+				2E0BC0DA208DC26D00745CDA /* RegisterPageViewController.swift in Sources */,
+				2E0BC0D5208DC0A400745CDA /* LoginPageViewController.swift in Sources */,
 				2E0BC0C3208DBA3D00745CDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +293,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2E0A61AF208EE603000E514D /* ForgotPassword.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E0A61B0208EE603000E514D /* Base */,
+			);
+			name = ForgotPassword.xib;
+			sourceTree = "<group>";
+		};
 		2E0BC0C6208DBA3D00745CDA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +429,7 @@
 		};
 		2E0BC0D2208DBA3E00745CDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0624BB1AD0705848F533F1 /* Pods-HackPoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +444,7 @@
 		};
 		2E0BC0D3208DBA3E00745CDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B631C40749256BFD852D6925 /* Pods-HackPoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
