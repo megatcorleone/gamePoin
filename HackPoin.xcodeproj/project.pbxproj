@@ -21,6 +21,8 @@
 		2E3CC14B208F1F99006B985E /* GOTHICBI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC144208F1C15006B985E /* GOTHICBI.TTF */; };
 		2E3CC14C208F1F99006B985E /* GOTHICI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC145208F1C15006B985E /* GOTHICI.TTF */; };
 		2E3CC14D208F1F99006B985E /* Prometo XBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CC146208F1C15006B985E /* Prometo XBold.otf */; };
+		2E4C0A68209AFE5A00267AE9 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C0A67209AFE5A00267AE9 /* MainMenuViewController.swift */; };
+		2E4C0A6A209B0D6F00267AE9 /* UpdatePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C0A69209B0D6E00267AE9 /* UpdatePageViewController.swift */; };
 		FDC1AD48ED2C69DAF17A44F9 /* Pods_HackPoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B798A9693567329C57F5C19C /* Pods_HackPoin.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		2E3CC145208F1C15006B985E /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
 		2E3CC146208F1C15006B985E /* Prometo XBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo XBold.otf"; sourceTree = "<group>"; };
 		2E3CC147208F1C16006B985E /* GOTHICB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB.TTF; sourceTree = "<group>"; };
+		2E4C0A67209AFE5A00267AE9 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		2E4C0A69209B0D6E00267AE9 /* UpdatePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePageViewController.swift; sourceTree = "<group>"; };
 		5D0624BB1AD0705848F533F1 /* Pods-HackPoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin.debug.xcconfig"; sourceTree = "<group>"; };
 		B631C40749256BFD852D6925 /* Pods-HackPoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin.release.xcconfig"; sourceTree = "<group>"; };
 		B798A9693567329C57F5C19C /* Pods_HackPoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackPoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +91,7 @@
 		2E0BC0C1208DBA3D00745CDA /* HackPoin */ = {
 			isa = PBXGroup;
 			children = (
+				2E4C0A66209AFE4700267AE9 /* Main Menu */,
 				2E3CC141208F1BE5006B985E /* Fonts */,
 				2E0BC0D6208DC0AB00745CDA /* Login */,
 				2E0BC0C2208DBA3D00745CDA /* AppDelegate.swift */,
@@ -105,6 +110,7 @@
 				2E0BC0D4208DC0A400745CDA /* LoginPageViewController.swift */,
 				2E0BC0D9208DC26D00745CDA /* RegisterPageViewController.swift */,
 				2E0A61AD208EE2F5000E514D /* ForgotPasswordViewController.swift */,
+				2E4C0A69209B0D6E00267AE9 /* UpdatePageViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -120,6 +126,14 @@
 				2E3CC146208F1C15006B985E /* Prometo XBold.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2E4C0A66209AFE4700267AE9 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2E4C0A67209AFE5A00267AE9 /* MainMenuViewController.swift */,
+			);
+			path = "Main Menu";
 			sourceTree = "<group>";
 		};
 		7401FFBB1DF455E6D4827B93 /* Pods */ = {
@@ -234,11 +248,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ASHorizontalScrollView/ASHorizontalScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONParserSwift/JSONParserSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -246,11 +262,13 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASHorizontalScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONParserSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -284,6 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0A61AE208EE2F5000E514D /* ForgotPasswordViewController.swift in Sources */,
+				2E4C0A68209AFE5A00267AE9 /* MainMenuViewController.swift in Sources */,
+				2E4C0A6A209B0D6F00267AE9 /* UpdatePageViewController.swift in Sources */,
 				2E0BC0DA208DC26D00745CDA /* RegisterPageViewController.swift in Sources */,
 				2E0BC0D5208DC0A400745CDA /* LoginPageViewController.swift in Sources */,
 				2E0BC0C3208DBA3D00745CDA /* AppDelegate.swift in Sources */,
