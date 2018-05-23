@@ -36,6 +36,11 @@
 		2ED2688A20AD278E00A2667F /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2688320AD278E00A2667F /* FSPageControl.swift */; };
 		2ED2688B20AD278E00A2667F /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2688420AD278E00A2667F /* FSPagerCollectionView.swift */; };
 		2ED2688E20AEBCA700A2667F /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2688D20AEBCA700A2667F /* MyData.swift */; };
+		2ED2689020B280D600A2667F /* LeftSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2688F20B280D600A2667F /* LeftSlideViewController.swift */; };
+		2ED2689220B29DD300A2667F /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2689120B29DD300A2667F /* HomePageViewController.swift */; };
+		2ED2689420B2AB6B00A2667F /* MainDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2689320B2AB6B00A2667F /* MainDisplayViewController.swift */; };
+		2ED2689A20B404F600A2667F /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2689920B404F600A2667F /* SlideMenuViewController.swift */; };
+		2ED2689C20B4152300A2667F /* ConstFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2689B20B4152300A2667F /* ConstFunction.swift */; };
 		FDC1AD48ED2C69DAF17A44F9 /* Pods_HackPoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B798A9693567329C57F5C19C /* Pods_HackPoin.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +56,7 @@
 		2E0BC0D4208DC0A400745CDA /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		2E0BC0D9208DC26D00745CDA /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		2E23A52220A1627100F11981 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		2E3CC142208F1C15006B985E /* DIMIS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIMIS___.TTF"; sourceTree = "<group>"; };
+		2E3CC142208F1C15006B985E /* DIMIS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIMIS___.TTF; sourceTree = "<group>"; };
 		2E3CC143208F1C15006B985E /* GOTHIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHIC.TTF; sourceTree = "<group>"; };
 		2E3CC144208F1C15006B985E /* GOTHICBI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICBI.TTF; sourceTree = "<group>"; };
 		2E3CC145208F1C15006B985E /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
@@ -71,6 +76,12 @@
 		2ED2688320AD278E00A2667F /* FSPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControl.swift; sourceTree = "<group>"; };
 		2ED2688420AD278E00A2667F /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
 		2ED2688D20AEBCA700A2667F /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		2ED2688F20B280D600A2667F /* LeftSlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSlideViewController.swift; sourceTree = "<group>"; };
+		2ED2689120B29DD300A2667F /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2ED2689320B2AB6B00A2667F /* MainDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDisplayViewController.swift; sourceTree = "<group>"; };
+		2ED2689820B3DDCE00A2667F /* Hackpoin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hackpoin-Bridging-Header.h"; sourceTree = "<group>"; };
+		2ED2689920B404F600A2667F /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		2ED2689B20B4152300A2667F /* ConstFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstFunction.swift; sourceTree = "<group>"; };
 		5D0624BB1AD0705848F533F1 /* Pods-HackPoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin.debug.xcconfig"; sourceTree = "<group>"; };
 		B631C40749256BFD852D6925 /* Pods-HackPoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin.release.xcconfig"; sourceTree = "<group>"; };
 		B798A9693567329C57F5C19C /* Pods_HackPoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackPoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +135,7 @@
 				2E52C26220A00FB200BBDD7D /* Utils */,
 				2E3CC141208F1BE5006B985E /* Fonts */,
 				2E0BC0C2208DBA3D00745CDA /* AppDelegate.swift */,
+				2ED2689820B3DDCE00A2667F /* Hackpoin-Bridging-Header.h */,
 				2E0BC0C6208DBA3D00745CDA /* Main.storyboard */,
 				2E0A61AF208EE603000E514D /* ForgotPassword.xib */,
 				2E0BC0CB208DBA3E00745CDA /* LaunchScreen.storyboard */,
@@ -169,7 +181,11 @@
 			isa = PBXGroup;
 			children = (
 				2E4C0A67209AFE5A00267AE9 /* MainMenuViewController.swift */,
+				2ED2689920B404F600A2667F /* SlideMenuViewController.swift */,
 				2ED2686C20AC01CA00A2667F /* ImageSliderCollectionViewCell.swift */,
+				2ED2688F20B280D600A2667F /* LeftSlideViewController.swift */,
+				2ED2689120B29DD300A2667F /* HomePageViewController.swift */,
+				2ED2689320B2AB6B00A2667F /* MainDisplayViewController.swift */,
 			);
 			path = "Main Menu";
 			sourceTree = "<group>";
@@ -180,6 +196,7 @@
 				2ED2688C20AEBC9400A2667F /* Model */,
 				2E52C26320A0106700BBDD7D /* ConstData.swift */,
 				2E52C26520A02C4000BBDD7D /* DataHelper.swift */,
+				2ED2689B20B4152300A2667F /* ConstFunction.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -244,7 +261,6 @@
 				2E0BC0BC208DBA3D00745CDA /* Frameworks */,
 				2E0BC0BD208DBA3D00745CDA /* Resources */,
 				2B44A896101472CFF5CC2D14 /* [CP] Embed Pods Frameworks */,
-				507F0F1DE84927176EE19309 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,21 +388,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		507F0F1DE84927176EE19309 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -401,17 +402,22 @@
 				2ED2688A20AD278E00A2667F /* FSPageControl.swift in Sources */,
 				2E4C0A68209AFE5A00267AE9 /* MainMenuViewController.swift in Sources */,
 				2E4C0A6A209B0D6F00267AE9 /* UpdatePageViewController.swift in Sources */,
+				2ED2689020B280D600A2667F /* LeftSlideViewController.swift in Sources */,
+				2ED2689220B29DD300A2667F /* HomePageViewController.swift in Sources */,
 				2E23A52320A1627100F11981 /* UIViewController.swift in Sources */,
 				2ED2688B20AD278E00A2667F /* FSPagerCollectionView.swift in Sources */,
+				2ED2689C20B4152300A2667F /* ConstFunction.swift in Sources */,
 				2ED2688620AD278E00A2667F /* FSPageViewTransformer.swift in Sources */,
 				2E0BC0DA208DC26D00745CDA /* RegisterPageViewController.swift in Sources */,
 				2ED2688820AD278E00A2667F /* FSPagerViewLayoutAttributes.swift in Sources */,
+				2ED2689A20B404F600A2667F /* SlideMenuViewController.swift in Sources */,
 				2E52C26620A02C4000BBDD7D /* DataHelper.swift in Sources */,
 				2ED2686D20AC01CA00A2667F /* ImageSliderCollectionViewCell.swift in Sources */,
 				2E0BC0D5208DC0A400745CDA /* LoginPageViewController.swift in Sources */,
 				2E52C26920A02E2C00BBDD7D /* APIRequest.swift in Sources */,
 				2ED2688720AD278E00A2667F /* FSPagerViewCell.swift in Sources */,
 				2E0BC0C3208DBA3D00745CDA /* AppDelegate.swift in Sources */,
+				2ED2689420B2AB6B00A2667F /* MainDisplayViewController.swift in Sources */,
 				2ED2688520AD278E00A2667F /* FSPagerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,9 +503,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "HackPoin/Hackpoin-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -547,8 +556,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "HackPoin/Hackpoin-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -559,10 +571,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = HackPoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Megat.HackPoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HackPoin/Hackpoin-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -574,10 +589,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = HackPoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Megat.HackPoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HackPoin/Hackpoin-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

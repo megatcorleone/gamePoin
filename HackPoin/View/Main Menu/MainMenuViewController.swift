@@ -7,10 +7,13 @@
 //
 
 import UIKit
-import LGSideMenuController
 import Kingfisher
+import LGSideMenuController
+
 
 class MainMenuViewController: UIViewController, FSPagerViewDataSource, FSPagerViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    
     
     
     // MARK:- properties
@@ -60,6 +63,11 @@ class MainMenuViewController: UIViewController, FSPagerViewDataSource, FSPagerVi
     
 //    var listItem: Array<MyData> = []
     
+    
+    
+    static func createView() -> MainMenuViewController {
+        return MainMenuViewController.instantiate(fromAppStoryboard: .Main)
+    }
     
    
     override func viewDidLoad() {
