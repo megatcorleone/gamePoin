@@ -41,6 +41,8 @@
 		2ED2689420B2AB6B00A2667F /* MainDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2689320B2AB6B00A2667F /* MainDisplayViewController.swift */; };
 		2ED2689A20B404F600A2667F /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2689920B404F600A2667F /* SlideMenuViewController.swift */; };
 		2ED2689C20B4152300A2667F /* ConstFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2689B20B4152300A2667F /* ConstFunction.swift */; };
+		2EE800A720B551BD005F446E /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE800A620B551BD005F446E /* MyProfileViewController.swift */; };
+		2EE800B320BE5A84005F446E /* HackShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE800B220BE5A84005F446E /* HackShopTableViewController.swift */; };
 		FDC1AD48ED2C69DAF17A44F9 /* Pods_HackPoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B798A9693567329C57F5C19C /* Pods_HackPoin.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +58,7 @@
 		2E0BC0D4208DC0A400745CDA /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		2E0BC0D9208DC26D00745CDA /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		2E23A52220A1627100F11981 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		2E3CC142208F1C15006B985E /* DIMIS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIMIS___.TTF; sourceTree = "<group>"; };
+		2E3CC142208F1C15006B985E /* DIMIS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIMIS___.TTF"; sourceTree = "<group>"; };
 		2E3CC143208F1C15006B985E /* GOTHIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHIC.TTF; sourceTree = "<group>"; };
 		2E3CC144208F1C15006B985E /* GOTHICBI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICBI.TTF; sourceTree = "<group>"; };
 		2E3CC145208F1C15006B985E /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
@@ -82,6 +84,8 @@
 		2ED2689820B3DDCE00A2667F /* Hackpoin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hackpoin-Bridging-Header.h"; sourceTree = "<group>"; };
 		2ED2689920B404F600A2667F /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
 		2ED2689B20B4152300A2667F /* ConstFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstFunction.swift; sourceTree = "<group>"; };
+		2EE800A620B551BD005F446E /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		2EE800B220BE5A84005F446E /* HackShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackShopTableViewController.swift; sourceTree = "<group>"; };
 		5D0624BB1AD0705848F533F1 /* Pods-HackPoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin.debug.xcconfig"; sourceTree = "<group>"; };
 		B631C40749256BFD852D6925 /* Pods-HackPoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackPoin/Pods-HackPoin.release.xcconfig"; sourceTree = "<group>"; };
 		B798A9693567329C57F5C19C /* Pods_HackPoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackPoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +190,7 @@
 				2ED2688F20B280D600A2667F /* LeftSlideViewController.swift */,
 				2ED2689120B29DD300A2667F /* HomePageViewController.swift */,
 				2ED2689320B2AB6B00A2667F /* MainDisplayViewController.swift */,
+				2EE800B220BE5A84005F446E /* HackShopTableViewController.swift */,
 			);
 			path = "Main Menu";
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			children = (
 				2E4C0A66209AFE4700267AE9 /* Main Menu */,
 				2E0BC0D6208DC0AB00745CDA /* Login */,
+				2EE800A620B551BD005F446E /* MyProfileViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -399,6 +405,7 @@
 				2E52C26420A0106700BBDD7D /* ConstData.swift in Sources */,
 				2E0A61AE208EE2F5000E514D /* ForgotPasswordViewController.swift in Sources */,
 				2ED2688E20AEBCA700A2667F /* MyData.swift in Sources */,
+				2EE800B320BE5A84005F446E /* HackShopTableViewController.swift in Sources */,
 				2ED2688A20AD278E00A2667F /* FSPageControl.swift in Sources */,
 				2E4C0A68209AFE5A00267AE9 /* MainMenuViewController.swift in Sources */,
 				2E4C0A6A209B0D6F00267AE9 /* UpdatePageViewController.swift in Sources */,
@@ -410,6 +417,7 @@
 				2ED2688620AD278E00A2667F /* FSPageViewTransformer.swift in Sources */,
 				2E0BC0DA208DC26D00745CDA /* RegisterPageViewController.swift in Sources */,
 				2ED2688820AD278E00A2667F /* FSPagerViewLayoutAttributes.swift in Sources */,
+				2EE800A720B551BD005F446E /* MyProfileViewController.swift in Sources */,
 				2ED2689A20B404F600A2667F /* SlideMenuViewController.swift in Sources */,
 				2E52C26620A02C4000BBDD7D /* DataHelper.swift in Sources */,
 				2ED2686D20AC01CA00A2667F /* ImageSliderCollectionViewCell.swift in Sources */,
